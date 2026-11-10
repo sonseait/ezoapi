@@ -7,6 +7,9 @@ Module: `github.com/sonseait/ezoapi`. Use Go 1.27.4 (verified against
 - Root package contains the public schema models (`openapi.go`), JSON Schema
   codec and validation (`schema.go`), reflection, and Fiber adapter.
 - `examples/basic` is a runnable consumer, not a production backend service.
+- Keep README.md in English and focused on the product, installation, and a
+  runnable quick start. Maintain detailed API behavior and local development
+  commands in `docs/usage.md`; keep both aligned with the public Go API.
 - This is a Go module, not a container delivery. Do not add container files or
   build/push images unless explicitly requested for a deployment workflow.
 - Keep dependencies limited to Fiber and the JSON Schema validator. Consumer
